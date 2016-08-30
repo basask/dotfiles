@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Set up go root
+export GOROOT=/opt/go
+
+GLOBAL_GO_PATH=$HOME/go
+LOCAL_GO_PATH=$HOME/local-go
+
+# Set up go path
+export GOPATH=$GLOBAL_GO_PATH
+
+# Add go path to path
+export PATH=$PATH:$GOROOT/bin:$LOCAL_GO_PATH/bin:$GOPATH/bin
+
+function clean_local_go_path {
+  if [ -L "$LOCAL_GO_PATH" ]; then
+    rm $LOCAL_GO_PATH
+  fi
+}
+
+function gopath {
+  if [ "$1" = "global" ]; then
+    export GOPATH=$GLOBAL_GO_PATH
+    clean_local_go_path
+  elif [ "$1" = "local" ]; then
+    export GOPATH=`pwd`
+    clean_local_go_path
+    ln -s $GOPATH $LOCAL_GO_PATH
+  else
+    echo "Usage: gopath global/local"
+  fi
+  echo "Current GOPATH: $GOPATH"
+}

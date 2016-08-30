@@ -1,0 +1,10 @@
+#!/bin/bash
+
+function mstsc(){
+    rdesktop -k pt-br -g 1600x900 &
+}
+
+# function mstsc-ci ()
+# {
+#     rdesktop -k pt-br -g 1600x900 -u <USER> -d <DOMMAIN> $1 &
+# }

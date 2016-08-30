@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Host
+export PGHOST=
+
+# Database
+export PGDATABASE=
+
+# user
+export PGUSER=
+
+# Passwd
+export PGPASSWORD=

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Add consul bim path to path
+export PATH=$PATH:/opt/consul/
+
+# https://github.com/golang/protobuf
+
+function protoc_go {
+  # protoc -I$GOPATH/src --go_out=plugins=micro:$GOPATH/src $GOPATH/src/github.com/micro/go-micro/examples/service/proto/greeter.proto
+  protoc -I$GOPATH/src --go_out=plugins=micro:$GOPATH/src $1
+}

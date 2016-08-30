@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Default paths
+export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:/usr/local/bin
+export PATH=$PATH:/usr/sbin
+export PATH=$PATH:/usr/bin
+export PATH=$PATH:/sbin
+export PATH=$PATH:/bin
+
+# Bash utilities: https://github.com/Basask/kk-bash-utils
+export PATH=$PATH:$HOME/bin/kk-bash-utils
+
+# User bin
+export PATH=$PATH:$HOME/bin
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/
