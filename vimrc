@@ -5,6 +5,7 @@ execute pathogen#infect()
 call pathogen#helptags()
 
 let g:jascript_plugin_jsdoc = 1
+let g:airline_theme = 'tomorrow'
 
 highlight Comment cterm=bold
 
@@ -46,3 +47,4 @@ if has("autocmd")
 endif
 
 colorscheme basilisco
+
