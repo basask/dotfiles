@@ -4,8 +4,16 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 call pathogen#helptags()
 
+" JSdoc
 let g:jascript_plugin_jsdoc = 1
+
+" Airline
 let g:airline_theme = 'tomorrow'
+let g:airline_powerline_fonts = 1
+
+" Powerline
+set encoding=utf-8
+let g:Powerline_symbols = 'fancy'
 
 highlight Comment cterm=bold
 
