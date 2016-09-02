@@ -16,3 +16,6 @@
 [submodule "vim/bundle/powerline"]
 	path = vim/bundle/powerline
 	url = https://github.com/powerline/powerline
+[submodule "vim/bundle/emmet-vim"]
+	path = vim/bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
