@@ -1,7 +1,9 @@
 #!/bin/bash
 
+DOTFILESDIR=~/.dotfiles
+
 # Extensions repository path
-EXTREPO=~/.dotfiles/bash-extensions
+EXTREPO=$DOTFILESDIR/bash-extensions
 
 # Test extensions repository
 if [ -e $EXTREPO ]; then

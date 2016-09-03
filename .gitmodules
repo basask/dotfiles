@@ -22,3 +22,6 @@
 [submodule "vim/bundle/vim-multiple-cursors"]
 	path = vim/bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "kk-bash-utils"]
+	path = kk-bash-utils
+	url = https://github.com/Basask/kk-bash-utils.git
