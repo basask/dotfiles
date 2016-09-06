@@ -10,6 +10,8 @@ export PATH=$PATH:/bin
 
 # Bash utilities: https://github.com/Basask/kk-bash-utils
 export PATH=$PATH:$DOTFILESDIR/kk-bash-utils
+# Ranger path
+export PATH=$PATH:$DOTFILESDIR/ranger
 
 # User bin
 export PATH=$PATH:$HOME/bin

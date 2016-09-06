@@ -25,3 +25,6 @@
 [submodule "kk-bash-utils"]
 	path = kk-bash-utils
 	url = https://github.com/Basask/kk-bash-utils.git
+[submodule "ranger"]
+	path = ranger
+	url = git://git.savannah.nongnu.org/ranger.git
