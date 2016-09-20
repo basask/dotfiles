@@ -3,7 +3,7 @@
 
 " Default GUI Colours
 let s:foreground = "eaeaea"
-let s:background = "202020"
+let s:background = "101010"
 let s:selection = "383838"
 let s:line = "2a2a2a"
 let s:comment = "969896"
