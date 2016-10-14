@@ -1,4 +1,4 @@
-"Set tabstop to 4 spaces
+"Set tabstop to 2 spaces
 set expandtab
 set shiftwidth=2
 set softtabstop=2
