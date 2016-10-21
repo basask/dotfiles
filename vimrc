@@ -15,6 +15,9 @@ let g:airline_powerline_fonts = 1
 set encoding=utf-8
 let g:Powerline_symbols = 'fancy'
 
+" Flake 8
+let g:flake8_show_in_gutter=1
+
 highlight Comment cterm=bold
 
 "highligh search
