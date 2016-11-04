@@ -19,6 +19,9 @@ let g:Powerline_symbols = 'fancy'
 let g:flake8_show_in_gutter=1
 autocmd BufWritePost *.py call Flake8()
 
+" Better Whitespaces
+autocmd BufWritePre * StripWhitespace
+
 "highligh search
 highlight Comment cterm=bold
 set hlsearch
