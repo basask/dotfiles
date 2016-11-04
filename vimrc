@@ -6,6 +6,7 @@ call pathogen#helptags()
 
 " JSdoc
 let g:jascript_plugin_jsdoc = 1
+let g:eslint_onwrite = 1
 
 " Airline
 let g:airline_theme = 'tomorrow'
@@ -18,6 +19,7 @@ let g:Powerline_symbols = 'fancy'
 " Flake 8
 let g:flake8_show_in_gutter=1
 autocmd BufWritePost *.py call Flake8()
+
 
 " Better Whitespaces
 autocmd BufWritePre * StripWhitespace
