@@ -17,10 +17,10 @@ let g:Powerline_symbols = 'fancy'
 
 " Flake 8
 let g:flake8_show_in_gutter=1
-
-highlight Comment cterm=bold
+autocmd BufWritePost *.py call Flake8()
 
 "highligh search
+highlight Comment cterm=bold
 set hlsearch
 
 "Enable Line number
