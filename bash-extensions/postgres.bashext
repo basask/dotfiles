@@ -1,13 +1,14 @@
 #!/bin/bash
 
 # Host
-export PGHOST=
+export PGHOST=localhost
 
 # Database
 export PGDATABASE=
 
 # user
-export PGUSER=
+export PGUSER=postgres
 
-# Passwd
-export PGPASSWORD=
+# Create ~/.pgpass with the following format:
+# host:port:database:postgres:postgres
+# Ex.: *:*:*:postgres:postgres
