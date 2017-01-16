@@ -20,6 +20,18 @@ let g:Powerline_symbols = 'fancy'
 let g:flake8_show_in_gutter=1
 autocmd BufWritePost *.py call Flake8()
 
+" vim-go
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_types = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+let g:go_fmt_command = "goimports"
+let g:go_metalinter_autosave = 1
+
+" Disable safewrite for file watchers
+set backupcopy=yes
 
 " Better Whitespaces
 autocmd BufWritePre * StripWhitespace
@@ -36,9 +48,6 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
-
-"Expand tabs to spaces
-set expandtab
 
 " Enable default +register for clipboard
 set clipboard+=unnamedplus
