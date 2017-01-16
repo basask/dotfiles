@@ -43,3 +43,6 @@
 [submodule "vim/bundle/vim-eslint"]
 	path = vim/bundle/vim-eslint
 	url = https://github.com/bigfish/vim-eslint.git
+[submodule "vim/bundle/typescript-vim"]
+	path = vim/bundle/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
