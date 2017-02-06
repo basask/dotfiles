@@ -30,6 +30,9 @@ let g:go_highlight_build_constraints = 1
 let g:go_fmt_command = "goimports"
 let g:go_metalinter_autosave = 1
 
+" Vim markdown preview
+let vim_markdown_preview_github=1
+
 " Disable safewrite for file watchers
 set backupcopy=yes
 
