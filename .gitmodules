@@ -52,3 +52,6 @@
 [submodule "vim/bundle/vim-markdown-preview"]
 	path = vim/bundle/vim-markdown-preview
 	url = git@github.com:JamshedVesuna/vim-markdown-preview.git
+[submodule "vim/bundle/vim-arduino"]
+	path = vim/bundle/vim-arduino
+	url = https://github.com/stevearc/vim-arduino
