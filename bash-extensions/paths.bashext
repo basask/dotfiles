@@ -25,3 +25,7 @@ export PATH=$PATH:~/.npm-global/bin
 export ANDROID_HOME=/opt/android-sdk-linux
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Arduino
+export ARDUINO_HOME=/opt/arduino
+export PATH=$PATH:$ARDUINO_HOME

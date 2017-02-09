@@ -33,6 +33,16 @@ let g:go_metalinter_autosave = 1
 " Vim markdown preview
 let vim_markdown_preview_github=1
 
+" Arduino
+let g:arduino_dir = '/opt/arduino'
+let g:arduino_board = 'arduino:avr:leonardo'
+let g:arduino_args = '--verbose-upload'
+let g:arduino_programmer = 'arduino:usbtinyisp'
+let g:arduino_auto_baud = 1
+
+let g:arduino_serial_port_globs = ['/dev/ttyACM*', '/dev/ttyUSB*']
+
+
 " Disable safewrite for file watchers
 set backupcopy=yes
 
