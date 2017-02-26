@@ -1,0 +1,10 @@
+#!/bin/bash
+
+insomnia_deb=/tmp/insomnia.deb
+
+function insomnia_update(){
+    wget https://builds.insomnia.rest/downloads/ubuntu/latest -O $insomnia_deb
+    sudo dpkg -i $insomnia_deb
+}
+
+
