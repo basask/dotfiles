@@ -3,7 +3,7 @@
 # Set up go root
 export GOROOT=/opt/go
 
-GLOBAL_GO_PATH=$HOME/go
+GLOBAL_GO_PATH=$HOME/fast/go
 LOCAL_GO_PATH=$HOME/local-go
 
 # Set up go path
