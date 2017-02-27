@@ -3,9 +3,8 @@
 # Add consul bim path to path
 export PATH=$PATH:/opt/consul/
 
-# https://github.com/golang/protobuf
+# Go Micro env
+export MICRO_API_HANDLER=api
+export MICRO_API_ADDRESS=0.0.0.0:8000
+export MICRO_ENABLE_STATS=1
 
-function protoc_go {
-  # protoc -I$GOPATH/src --go_out=plugins=micro:$GOPATH/src $GOPATH/src/github.com/micro/go-micro/examples/service/proto/greeter.proto
-  protoc -I$GOPATH/src --go_out=plugins=micro:$GOPATH/src $1
-}
