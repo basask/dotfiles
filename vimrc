@@ -62,9 +62,6 @@ set shiftwidth=4
 set softtabstop=4
 set tabstop=4
 
-" remove dot(.) from keyworklist
-set iskeyword-=.
-
 " Enable default +register for clipboard
 set clipboard+=unnamedplus
 
