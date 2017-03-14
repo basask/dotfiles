@@ -55,6 +55,3 @@
 [submodule "vim/bundle/vim-arduino"]
 	path = vim/bundle/vim-arduino
 	url = https://github.com/stevearc/vim-arduino
-[submodule "vim/bundle/vim-coloresque"]
-	path = vim/bundle/vim-coloresque
-	url = https://github.com/gorodinskiy/vim-coloresque.git
