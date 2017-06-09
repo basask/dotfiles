@@ -8,3 +8,23 @@ function mstsc(){
 # {
 #     rdesktop -k pt-br -g 1600x900 -u <USER> -d <DOMMAIN> $1 &
 # }
+
+function mstsc-ie9 ()
+{
+    rdesktop -k pt-br -g 1600x900 -u IEUser ie9.ht.lan &
+}
+
+function mstsc-ie10 ()
+{
+    rdesktop -k pt-br -g 1600x900 -u IEUser ie10.ht.lan &
+}
+
+function mstsc-ie11 ()
+{
+    rdesktop -k pt-br -g 1600x900 -u IEUser ie11.ht.lan &
+}
+
+function mstsc-bestine ()
+{
+    rdesktop -k pt-br -g 1600x900  bestine.ht.lan &
+}
