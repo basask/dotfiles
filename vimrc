@@ -82,7 +82,11 @@ if has("autocmd")
     autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
     autocmd BufNewFile * silent! 0r $HOME/.vim/templates/%:e.skeleton
+
+
 endif
+
+autocmd BufRead,BufNewFile /etc/nginx/*,/usr/local/nginx/conf/* if &ft == '' | setfiletype nginx | endif
 
 colorscheme basilisco
 
