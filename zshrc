@@ -15,9 +15,7 @@ plugins=(
   dotenv
 )
 
-
 source $ZSH/oh-my-zsh.sh
-
 
 # Python Version Manager (PYENV)
 export PYENV_ROOT="$HOME/.pyenv"
@@ -51,8 +49,10 @@ function git_branch_prompt() {
   [[ -n "$branch" ]] && echo "%F{white}git:%B%F{blue}($branch)%b%f "
 }
 
+autoload -U colors && colors
 
 PROMPT='$(kubectx_prompt)$(git_branch_prompt)%F{white}%c ❯'
 
-autoload -U colors && colors
-
+# https://github.com/ohmyzsh/ohmyzsh/issues/449#issuecomment-1466968
+unsetopt extendedglob
+unsetopt EXTENDED_GLOB
