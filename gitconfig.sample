@@ -6,3 +6,5 @@
 [alias]
 	feature = checkout -t -b
 	s = status -s
+[pager]
+	branch = false
