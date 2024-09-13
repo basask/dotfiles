@@ -1,6 +1,3 @@
-[submodule "vim/bundle/powerline"]
-	path = vim/bundle/powerline
-	url = https://github.com/powerline/powerline
 [submodule "kk-bash-utils"]
 	path = kk-bash-utils
 	url = https://github.com/Basask/kk-bash-utils.git

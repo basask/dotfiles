@@ -1,0 +1,8 @@
+[user]
+	name =
+	email =
+[core]
+	editor = vim
+[alias]
+	feature = checkout -t -b
+	s = status -s
